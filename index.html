@@ -22,9 +22,38 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div id="loadingArea" class="text-center hidden">
+                <span class="loading loading-dots loading-lg"></span>
+            </div>
+        </section>
+
         <section>
             <div id="phone-container" class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">    
             </div>
+        </section>
+
+        <section>
+            <div id="seeMoreBtn" class="w-full text-center my-6 hidden">
+                <button onclick="showAllPhone()" class="btn ">See All</button>
+            </div>
+        </section>
+
+        <section>
+            <!-- Open the modal using ID.showModal() method -->
+            <dialog id="show_details_modal" class="modal">
+            <div id="show-details-phone" class="modal-box border  p-10">
+                <!-- <img src="" alt="">
+                <h3 class="font-bold text-lg">Hello!</h3>
+                <p class="py-4">Press ESC key or click the button below to close</p>
+                <div class="modal-action">
+                <form method="dialog">
+                    <button class="btn">Close</button>
+                </form>
+                </div> -->
+            </div>
+            </dialog>
         </section>
 
     </main>
